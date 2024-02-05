@@ -18,7 +18,11 @@ dependencies:
 
   equatable: ^2.0.3
   rxdart: ^0.27.3
-  flutter_keyboard_visibility: ^5.4.1
+  flutter_keyboard_visibility:
+    git:
+      url: https://github.com/Dhruvrajsinh7Span/flutter_keyboard_visibility
+      path: ./flutter_keyboard_visibility
+
   collection: ^1.15.0
   intl: ^0.18.0
 
